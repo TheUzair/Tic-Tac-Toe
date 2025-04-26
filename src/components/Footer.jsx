@@ -1,7 +1,5 @@
 import React from "react";
-import { Heart } from "lucide-react";
-import GitHubIcon from "@mui/icons-material/Github";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { Heart, Github, Linkedin } from "lucide-react";
 
 const Footer = ({ theme }) => {
     const themeColors = {
@@ -33,7 +31,7 @@ const Footer = ({ theme }) => {
                                 className={linkClass}
                                 aria-label="GitHub"
                             >
-                                <GitHubIcon className="w-5 h-5" />
+                                <Github className="w-5 h-5" />
                             </a>
                             <a
                                 href="https://linkedin.com/in/mohd-uzair-33b166204"
@@ -42,7 +40,7 @@ const Footer = ({ theme }) => {
                                 className={linkClass}
                                 aria-label="LinkednIn"
                             >
-                                <LinkedInIcon className="w-5 h-5" />
+                                <Linkedin className="w-5 h-5" />
                             </a>
                         </div>
 
