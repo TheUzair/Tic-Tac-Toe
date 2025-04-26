@@ -1,5 +1,5 @@
 import React from "react";
-import GitHubIcon from "@mui/icons-material/Github";
+import { Github } from "lucide-react";
 import { Settings } from "lucide-react";
 
 const Header = ({ theme, onSettingsClick, showSettings }) => {
@@ -58,7 +58,7 @@ const Header = ({ theme, onSettingsClick, showSettings }) => {
                             className={`p-2 rounded-full transition-colors ${buttonClass[theme]}`}
                             aria-label="GitHub"
                         >
-                            <GitHubIcon className="w-5 h-5" />
+                            <Github className="w-5 h-5" />
                         </a>
                     </div>
                 </div>
